@@ -187,9 +187,6 @@ export default async function HomePage() {
                           src={meme.imageUrl || `/placeholder.svg?height=200&width=200&text=${meme.title}`}
                           alt={meme.title}
                           className="w-full aspect-square object-cover"
-                          onError={(e) => {
-                            console.error(`Failed to load image for meme ${meme.id}:`, meme.imageUrl)
-                          }}
                         />
                         <div className="absolute bottom-0 left-0 right-0 bg-black/60 p-2 text-white">
                           <div className="flex items-center justify-between">

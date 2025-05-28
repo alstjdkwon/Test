@@ -1,5 +1,3 @@
-"use cl
-
 import Link from "next/link"
 import { ArrowLeft, Bookmark, TrendingUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
